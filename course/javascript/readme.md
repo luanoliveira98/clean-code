@@ -13,3 +13,7 @@ Implementação prática de clean code no JavaScript.
 
 - Sempre escrever como se fossem uma pergunta de sim ou não;
   - is, does, has
+
+## Causa vs Efeito
+
+- Criar variaveis por causa do motivo e não da causa;
