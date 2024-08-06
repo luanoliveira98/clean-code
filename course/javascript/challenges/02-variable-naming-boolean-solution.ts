@@ -1,6 +1,12 @@
 // Boleanos
 
-const user = {
+interface User {
+  name: string;
+  height: number;
+  hasTicket: boolean;
+}
+
+const user: User = {
     name: 'Diego Fernandes',
     height: 190,
     hasTicket: true,

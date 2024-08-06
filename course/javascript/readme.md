@@ -16,4 +16,4 @@ Implementação prática de clean code no JavaScript.
 
 ## Causa vs Efeito
 
-- Nomear variaveis de acordo com o motivo e não da causa;
+- Nomear variaveis de acordo com o efeito e não da causa;
