@@ -17,3 +17,9 @@ Implementação prática de clean code no JavaScript.
 ## Causa vs Efeito
 
 - Nomear variaveis de acordo com o efeito e não da causa;
+
+## Código em inglês
+
+- Código precisa ser em inglês;
+- As ferramentas do código, bibliotecas são em inglês;
+- Torna o código acessível;
