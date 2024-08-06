@@ -8,3 +8,8 @@ Implementação prática de clean code no JavaScript.
 - Evite diminuitivos;
 - Não tenha medo de criar nomes compridos
 - Evite nomes genéricos
+
+### Booleanos
+
+- Sempre escrever como se fossem uma pergunta de sim ou não;
+  - is, does, has
