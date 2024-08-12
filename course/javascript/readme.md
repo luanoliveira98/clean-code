@@ -23,3 +23,9 @@ Implementação prática de clean code no JavaScript.
 - Código precisa ser em inglês;
 - As ferramentas do código, bibliotecas são em inglês;
 - Torna o código acessível;
+
+## Regras em condicionais
+
+- Evite o uso de negações, sempre que possível, utilizando variaveis adicionais caso seja necessário;
+- Early return, mas tomar cuidado com encadeamentos de ifs ou early retuns dentro de ifs com muito código, nesses casos é favorável optar pela utilização do else;
+- Evite condicionais aninhadas, optando por early returns ou unificar os ifs de forma que o código se mantenha legível;
