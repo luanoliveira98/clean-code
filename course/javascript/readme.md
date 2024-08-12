@@ -36,3 +36,7 @@ Implementação prática de clean code no JavaScript.
 - Opte por receber objetos ao invés de parâmetros;
   - Até mesmo quando tiver apenas um parâmetro, pois isso mais para frente pode se desdobrar em mais;
   - As mesmas regras podem ser atribuidas para resposta de funções;
+
+## Números mágicos
+
+- Cálculos ou valores que determinamos no código;
