@@ -40,3 +40,7 @@ Implementação prática de clean code no JavaScript.
 ## Números mágicos
 
 - Cálculos ou valores que determinamos no código;
+
+## Comentários vs Documenttação
+
+- Não comentar o que o código faz, isso é função do próprio código ou de uma documentação separada;
