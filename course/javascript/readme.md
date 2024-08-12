@@ -44,3 +44,8 @@ Implementação prática de clean code no JavaScript.
 ## Comentários vs Documenttação
 
 - Não comentar o que o código faz, isso é função do próprio código ou de uma documentação separada;
+
+## Syntatic sugars
+
+- Coisas muito especificas de uma linguagem única;
+- Evite a utilização até o ponto que não afete a sua produtividade;
