@@ -29,3 +29,10 @@ Implementação prática de clean code no JavaScript.
 - Evite o uso de negações, sempre que possível, utilizando variaveis adicionais caso seja necessário;
 - Early return, mas tomar cuidado com encadeamentos de ifs ou early retuns dentro de ifs com muito código, nesses casos é favorável optar pela utilização do else;
 - Evite condicionais aninhadas, optando por early returns ou unificar os ifs de forma que o código se mantenha legível;
+
+## Parâmetros e desestruturação
+
+- Sempre que possível, receber e enviar parâmetros nomeados;
+- Opte por receber objetos ao invés de parâmetros;
+  - Até mesmo quando tiver apenas um parâmetro, pois isso mais para frente pode se desdobrar em mais;
+  - As mesmas regras podem ser atribuidas para resposta de funções;
