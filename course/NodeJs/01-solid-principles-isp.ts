@@ -1,4 +1,4 @@
-// ISP - Wrong
+// Wrong
 interface PrinterInterface {
     print: () => void;
     scan: () => void;
@@ -17,7 +17,7 @@ class BasicPrinter implements BasicPrinterInterface {
     print: () => void;
 }
 
-// ISP - Right
+// Right
 interface BasicPrinterInterface {
     print: () => void;
 }
@@ -34,25 +34,3 @@ class Printer implements BasicPrinterInterface, PrinterWithScanInterface {
 class BasicPrinter implements BasicPrinterInterface {
     print: () => void;
 }
-
-// DIP - Wrong
-import { createUserOnDatabase } from 'db';
-
-function createUser() {
-    createUserOnDatabase()
-}
-
-// DIP - Right
-function createUser(
-    createUserOnDatabase: () => void
-) {
-    createUserOnDatabase()
-}
-
------
-
-import { createUserOnDatabase } from 'db';
-
-createUser(createUserOnDatabase)
-
-
